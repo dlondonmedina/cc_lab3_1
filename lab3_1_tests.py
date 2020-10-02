@@ -10,8 +10,8 @@ class TestLab3(unittest.TestCase):
       self.assertEqual(secret, 42)
 
    def test_name(self):
-      correct = ["DYLAN", "dylan", "Dylan", "an"]
-      names = target.string_manip("Dylan")
+      correct = ["JENNIFER", "jennifer", "Jenni", "er"]
+      names = target.string_manip("Jennifer")
       self.assertEqual(correct, names)
 
    def test_greeter_bot(self):
